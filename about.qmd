@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+Geography 385 Spatial Data Analysis is taught by [Dr. Sergio Rey](https://sergerey.org/), Department of Geography, San Diego State University.

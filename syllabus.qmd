@@ -1,0 +1,353 @@
+---
+title: "Geog 385: Spatial Data Analysis"
+subtitle: "Spring 2026"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    theme: cosmo
+  pdf:
+    toc: true
+    number-sections: false
+---
+
+## Course Information
+**Instructor:** Dr. Sergio J. Rey  
+**Email:** srey@sdsu.edu  
+**Class Meeting Times:** Tu/Th, 2:00-3:15  
+**Class Location:** GMCS 307  
+**Office Hours:** Tuesdays, 11:00-12:00  
+**Office:** PSFA 361G  
+**Course Website:** URL (Quarto site)
+
+---
+
+This syllabus is detailed by design. You are not expected to memorize it. Instead, you should understand (1) how learning happens in this course, (2) how grades are earned, and (3) where to look when you have questions. Key sections to revisit during the semester are the course schedule, grading thresholds, and token policy.
+
+## Introduction
+The purpose of this course is to introduce you to methods of spatial
+data analysis. The focus is on both the conceptual and applied aspects
+of spatial statistical methods. We will place particular emphasis on
+the computational aspects of Exploratory Spatial Data Analysis (ESDA)
+methods for diﬀerent types of spatial data with a particular focus on
+point processes and lattice (areal unit) data. Throughout the course
+you will gain valuable hands-on experience with several specialized
+software packages for spatial data analysis. The overriding goal of
+the course is for you to acquire familiarity with the fundamental
+methodological and operational issues in the statistical analysis of
+geographic information and the ability to extend these methods in your
+own research.
+
+The course takes an explicitly computational thinking approach to its
+pedagogy. Students are introduced to computational concepts and tools that are
+increasingly important to research that engages with geospatial data. By
+adopting these tools, students acquire a deeper engagement with, and mastery of,
+the substantive concepts. Put differently, students will *learn to code*. But
+this is a means to the end goal: students will *code to learn* spatial data
+analysis.
+
+
+In the scope of a 15-week semester course we can only introduce a handful
+of the key concepts and methods relevant to the field of spatial data analysis. As
+such, the course is not intended as an exhaustive treatment. Instead,
+the goal is that students will acquire an understanding of the more
+common and useful methods and practices, and use the course as an entry
+point for further engagement with the field.
+
+---
+
+## Learning Objectives
+
+By the end of this course, students will be able to:
+
+1. Describe key concepts in spatial data analysis, including spatial dependence and spatial heterogeneity.
+2. Work with common spatial data formats and representations.
+3. Apply exploratory spatial data analysis (ESDA) techniques.
+4. Interpret spatial patterns using appropriate analytical methods.
+5. Communicate spatial analytical results clearly using text, maps, and figures.
+6. Engage productively in collaborative and participatory learning environments.
+
+---
+
+## Topics (Planned)
+
+| Week | Date | Topic (R: Reading, L: Lecture)                   | Activities               |
+|------|------|--------------------------------------------------|--------------------------|
+| 1    | 1-20 | Introduction                                     |                          |
+|      | 1-22 | Computational Environment [R][collab]            |                          |
+| 2    | 1-27 | Python Primer [R][primer]                        | Q 1                      |
+|      | 1-29 | Data Exploration [R][pandas10]                   |                          |
+| 3    | 2-3  | Probability    [R][prob]                         | Q 2                      |
+|      | 2-5  | Data Simulation [R][sim]                         | Exercise 1  (W 3-4)      |
+| 4    | 2-10 | Inference [R][estimation]                        | Q 3                      |
+|      | 2-12 | Estimation and Testing in Python [R][hypothesis] |                          |
+| 5    | 2-17 | Spatial Data  [R][spatial-data]                  | Q 4                      |
+|      | 2-19 | Spatial Data in Python [R][spatial-data]         | Exercise 2 (W 5-6)       |
+| 6    | 2-24 | Areal Unit Data                                  | Q 5                      |
+|      | 2-26 | Visualization of Areal Unit Data [R][choro]      |                          |
+| 7    | 3-3  | Spatial Weights  [R][weights]                    | Q 6                      |
+|      | 3-5  | Spatial Graphs                                   | Exercise 3 (W 7-8)       |
+| 8    | 3-10 | Global Spatial Autocorrelation  [R][global]      | Q 7                      |
+|      | 3-12 | Testing for Global Autocorrelation               |                          |
+| 9    | 3-17 | No Class – Spatial Data Science Summit and AAG   |                          |
+|      | 3-19 | No Class – Spatial Data Science Summit and AAG   |                          |
+| 10   | 3-24 | Local Spatial Autocorrelation                    | Q 8                      |
+|      | 3-26 | Testing for Local Spatial Autocorrelation        | Exercise 4 (W 10-11)     |
+|      | 3-31 | Spring Break – No class                          |                          |
+|      | 4-2  | Spring Break – No class                          |                          |
+| 11   | 4-7  | Bivariate Spatial Autocorrelation [R][local]     | Q 9                      |
+|      | 4-9  | Regionalization      [R][region]                 |  |
+| 12   | 4-14 | Point Patterns       [R][points]                 | Q 10                     |
+|      | 4-16 | Centrography        [R][centro]                  | Exercise 5 (W 12-14)     |
+| 13   | 4-21 | Quadrat Methods     [R][quadrat]                 | Q 11                     |
+|      | 4-23 | Quadrat Applications                             |                          |
+| 14   | 4-28 | Distance Based  Analysis [R][ripley]             | Q 12                     |
+|      | 4-30 | Ripley Functions                                 |                          |
+| 15   | 5-5  | Clusters  [R][process]                           | Q 13                     |
+|      | 5-7  | Course retrospective                             |                          |
+
+[collab]: https://geographicdata.science/book/notebooks/02_geospatial_computational_environment.html
+[spatial-data]: https://geographicdata.science/book/notebooks/03_spatial_data.html
+[primer]: https://docs.python.org/3/tutorial/introduction.html
+[pandas10]: https://pandas.pydata.org/docs/user_guide/10min.html
+[prob]: https://allendowney.github.io/ThinkStats/chap02.html
+[sim]: https://allendowney.github.io/ThinkStats/chap05.html
+[estimation]: https://allendowney.github.io/ThinkStats/chap08.html
+[hypothesis]: https://allendowney.github.io/ThinkStats/chap09.html
+[choro]: https://geographicdata.science/book/notebooks/05_choropleth.html
+[weights]: https://geographicdata.science/book/notebooks/04_spatial_weights.html#
+[global]: https://geographicdata.science/book/notebooks/06_spatial_autocorrelation.html
+[local]: https://geographicdata.science/book/notebooks/07_local_autocorrelation.html
+[points]: https://geographicdata.science/book/notebooks/08_point_pattern_analysis.html
+[region]: https://geographicdata.science/book/notebooks/10_clustering_and_regionalization.html
+[centro]: http://pysal.org/pointpats/user-guide/centrography.html
+[quadrat]: http://pysal.org/pointpats/user-guide/Quadrat_statistics.html
+[ripley]: http://pysal.org/pointpats/user-guide/ripley.html
+[process]: http://pysal.org/pointpats/user-guide/random.html
+
+## Instructional Format: Prerecorded Conceptual Lectures and Experiential Learning
+
+Conceptual lecture material for this course will be prerecorded and made available in advance of class meetings. Students are expected to watch the assigned lecture videos prior to the Tuesday meetings.
+
+This structure allows us to make the most effective use of in-class time. Rather than repeating foundational material during class, scheduled meetings will emphasize experiential learning, including:
+
+- Guided computational exercises
+- Hands-on spatial data analysis workflows
+- Collaborative problem-solving
+- Discussion and interpretation of analytical results
+
+Tuesday sessions will build directly on the prerecorded material, assuming prior engagement with the concepts, terminology, and methods introduced in the videos. Students who arrive unprepared will find it difficult to participate fully in class activities.
+
+This approach is designed to support deeper learning by shifting lower-level content acquisition outside the classroom and reserving in-person time for higher-order skills such as application, synthesis, and interpretation.
+
+---
+
+## Grading Philosophy: Specification Grading
+
+This course uses **specification grading**, a mastery-based grading system in which grades are earned by **demonstrating competency at clearly defined performance thresholds**, rather than by accumulating points or percentages.
+
+Each letter grade corresponds to a set of required competencies. To earn a given grade, you must meet **all** requirements at that grade level. Performance does not average across categories, and exceeding one requirement does not compensate for falling short in another.
+
+---
+
+### Component Definitions
+
+#### Course Components at a Glance
+
+| Component               | Count | Notes                                   |
+|-------------------------|-------|-----------------------------------------|
+| Exercises (Assignments) | 5     | Each spans two weeks                    |
+| Quizzes                 | 13    | Weekly, short conceptual checks         |
+| Lecture Participation   | ~15   | In-class experiential activities        |
+| Computational Essay     | 1     | Required for A− and above               |
+| Tokens                  | 2     | Used for assignment revision or quiz recovery |
+
+
+#### Exercises
+
+Major applied exercises focused on spatial data handling, analysis, and interpretation. Each exercise is evaluated on a **satisfactory / not yet satisfactory** basis according to published specifications emphasizing correctness, clarity, and reproducibility.
+
+Each exercise is due at 11:59pm on the Sunday at the end of its second week.
+
+#### Quizzes
+Short assessments of key concepts, terminology, and methods in spatial data analysis. Only quizzes meeting specifications count toward grade thresholds.
+
+#### LP — Lecture Participation
+Active engagement during lecture sessions through structured activities, discussions, short exercises, or in-class analysis tasks. Each participation unit must meet stated criteria to count as satisfactory.
+One LP unit is earned through satisfactory participation in a designated in-class activity (e.g., guided exercise, discussion, or analysis task). Most weeks offer one LP opportunity per meeting.
+
+#### CE — Computational Essay
+A substantial integrative analysis of a spatial data problem, supported by computation (code, maps, figures, and results).
+
+- **A level:** Computational Essay must be submitted *and presented*  
+- **A− level:** Computational Essay must be submitted  
+- **Below A−:** Computational Essay not required  
+
+---
+
+### How Grades Are Determined
+
+#### Grade Thresholds
+
+Your final course grade is the **highest grade level for which all required competencies have been demonstrated**.
+
+| Level | Assignments | Quizzes | LP | CE        |
+|-------|-------------|---------|----|-----------|
+| A     | 5           | 13      | 13 | Presented |
+| A-    | 5           | 12      | 12 | Submitted |
+| B+    | 4           | 11      | 11 |           |
+| B     | 4           | 10      | 10 |           |
+| B-    | 4           | 9       | 9  |           |
+| C+    | 3           | 8       | 8  |           |
+| C     | 3           | 6       | 6  |           |
+| C-    | 3           | 5       | 5  |           |
+| D+    | 2           | 4       | 4  |           |
+| D     | 2           | 3       | 3  |           |
+| D-    | 2           | 2       | 2  |           |
+
+---
+
+- Every requirement in a grade row must be satisfied.
+- Meeting a higher threshold automatically satisfies all lower thresholds.
+- If any single requirement is not met, the final grade is the highest fully satisfied lower level.
+- There is **no curve** and **no partial credit**.
+
+---
+
+#### Worked Example
+
+Suppose a student completes:
+
+- Assignments: 5  
+- Quizzes: 12  
+- Lecture Participation: 11  
+- Computational Essay: Submitted  
+
+The A− threshold requires 12 Lecture Participation units. Since that requirement is not met, the highest fully satisfied threshold is **B+**.
+
+**Final grade: B+.**
+
+---
+
+### Revision and Resubmission
+
+Learning in spatial data analysis is iterative.
+
+- Many components may be revised and resubmitted after feedback.
+- A revised submission that meets specifications will count as satisfactory.
+- Deadlines and revision limits are specified with each component.
+
+---
+
+### Token Policy (Specification Grading)
+
+To support flexibility, revision, and student agency within the specification grading framework, this course uses a **token system**.
+
+#### Initial Allocation
+- Each student begins the semester with **two (2) tokens**.
+- Tokens are personal, non-transferable, and tracked by the student.
+
+---
+
+#### Using Tokens
+
+1. Assignment Resubmissions
+
+	- **One (1) token** may be used to **resubmit an assignment** that received a grade of *Not Yet Satisfactory*.
+   - A token allows **one additional resubmission attempt** beyond any revisions already permitted by default.
+   - The resubmitted work must address the specific feedback provided.
+   - A resubmission that meets specifications will be recorded as **Satisfactory**.
+
+2. End-of-Semester Quiz Recovery
+
+	- Any **unused tokens remaining at the end of Week 15** will be automatically applied to quizzes.
+   - **One (1) token may be exchanged for one (1) missed or failed quiz**, converting it to *Satisfactory*.
+   - Tokens are applied **only after Week 15**, not on a rolling basis during the semester.
+   - Students do not need to take action for this conversion; it will be handled automatically.
+
+---
+
+#### Important Rules and Clarifications
+
+- Tokens are **optional**; students are not required to use them.
+- Tokens may be used **at the student’s discretion**, but once spent, they are gone.
+- Tokens do **not** roll over between semesters.
+- Tokens cannot be combined or split.
+- Tokens cannot be used to satisfy requirements other than assignment resubmissions or quiz recovery.
+
+
+
+Students are encouraged to think strategically about token use:
+
+- Use tokens early if revision will meaningfully improve mastery.
+- Reserve tokens if you anticipate missing quizzes later in the semester.
+- Remember that **tokens do not change grade thresholds**; they only help you meet them.
+
+---
+
+The token system is designed to:
+
+- Encourage revision and learning from feedback
+- Provide flexibility for unavoidable disruptions
+- Reduce anxiety around isolated setbacks
+- Maintain the integrity and clarity of specification grading thresholds
+
+Students are encouraged to track their own progress relative to grade thresholds and to consult the instructor if they are unsure how or when to use a token.
+
+
+
+## Course Policies
+
+### Attendance
+Regular attendance is expected. Lecture Participation is a required component of the course.
+
+### Late Work
+Work that does not meet specifications by the deadline will be marked *Not Yet Satisfactory*. Policies for late submission and revision are described with each assignment.
+
+### Academic Integrity
+Students are expected to follow university policies on academic honesty. All submitted work must be original, with appropriate citation of data sources, code, and references.
+
+### Accessibility
+Students requiring accommodations should contact the instructor and the university’s accessibility services as early as possible.
+
+### Use of AI Tools
+
+This course recognizes that AI-assisted tools (including large language models and code assistants) are increasingly part of contemporary computational and analytical workflows. **Responsible use of AI tools is permitted** in this course, subject to the guidelines below.
+
+#### Permitted Use
+
+Students may use AI tools to:
+
+- Clarify concepts, terminology, or methodological ideas  
+- Assist with debugging code or understanding error messages  
+- Explore alternative approaches to a computational task  
+
+#### Expectations and Limitations
+
+- All submitted work must reflect the student’s **own understanding and decision-making**.  
+- AI tools may not be used to generate complete solutions, analyses, or written interpretations submitted as the student’s own work.  
+- Students are responsible for verifying the correctness and appropriateness of any AI-assisted code or explanations they use.  
+- Work that does not demonstrate individual understanding, even if technically correct, will be marked *Not Yet Satisfactory*.
+
+#### Disclosure Requirement
+
+If an AI tool is used in a substantive way (for example, generating code structure, suggesting analytical steps, or drafting text), students must **acknowledge its use** in a short markdown cell or code comment. The disclosure should briefly state:
+
+- The tool used  
+- The type of assistance provided  
+
+Failure to disclose substantive AI use will be treated as a violation of academic integrity.
+
+#### Rationale
+
+The purpose of this policy is to encourage **transparent, ethical, and effective engagement with AI tools** while maintaining the course’s emphasis on learning, mastery, and reproducibility. AI tools should support—not replace—the development of spatial data analysis skills.
+
+---
+
+
+
+
+
+
+

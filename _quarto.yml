@@ -1,0 +1,41 @@
+project:
+  type: website
+
+
+profiles:
+  default:
+    render:
+      - "*.qmd"
+      - "**/*.qmd"
+      - "**/*.ipynb"
+      - "!drafts/**"
+  local:
+    render:
+      - "*.qmd"
+      - "**/*.qmd"
+      - "**/*.ipynb"
+      - "drafts/**"
+
+
+website:
+  title: "Geography 385: Spatial Data Analysis"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: assignments/index.qmd
+        text: Assignments
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+execute:
+  jupyter: "course"
