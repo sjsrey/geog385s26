@@ -12,13 +12,13 @@ listing:
 
 
 
-| Assignment          |   Out |   Due | What you practice                   |
-|---------------------|------:|------:|-------------------------------------|
-| A1: Foundations     | 02-05 | 02-15 | Colab, pandas, SciPy inference      |
-| A2: Area Unit Data  | 02-19 | 03-01 | polygons, choropleths, adjacency    |
-| A3: Autocorrelation | 03-05 | 03-15 | join counts, global autocorrelation |
-| A4: Point Patterns  | 03-26 | 04-12 | local spatial autocorrelation       |
-| A5: Clustering      | 04-16 | 05-03 | point patterns                      |
+| Assignment                 |   Out |   Due | What you practice                   |
+|----------------------------|------:|------:|-------------------------------------|
+| A1: Foundations            | 02-05 | 02-15 | Colab, pandas, SciPy inference      |
+| A2: Area Unit Data         | 02-19 | 03-01 | polygons, choropleths, adjacency    |
+| A3: Global Autocorrelation | 03-05 | 03-15 | join counts, global autocorrelation |
+| A4: Local Autocorrelation  | 03-26 | 04-12 | hot, cold spots, cluster maps       |
+| A5: Clustering             | 04-16 | 05-03 | point patterns                      |
 
 
 
