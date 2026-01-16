@@ -204,10 +204,10 @@ window.Quarto = {
 
 <table class="caption-top table">
 <colgroup>
-<col style="width: 29%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 51%">
+<col style="width: 35%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 46%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -231,16 +231,16 @@ window.Quarto = {
 <td>polygons, choropleths, adjacency</td>
 </tr>
 <tr class="odd">
-<td>A3: Autocorrelation</td>
+<td>A3: Global Autocorrelation</td>
 <td style="text-align: right;">03-05</td>
 <td style="text-align: right;">03-15</td>
 <td>join counts, global autocorrelation</td>
 </tr>
 <tr class="even">
-<td>A4: Point Patterns</td>
+<td>A4: Local Autocorrelation</td>
 <td style="text-align: right;">03-26</td>
 <td style="text-align: right;">04-12</td>
-<td>local spatial autocorrelation</td>
+<td>hot, cold spots, cluster maps</td>
 </tr>
 <tr class="odd">
 <td>A5: Clustering</td>
@@ -333,7 +333,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/sjsrey\.github\.io\/geog385s26\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

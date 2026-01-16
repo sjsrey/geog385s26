@@ -67,7 +67,7 @@
     "href": "assignments/index.html",
     "title": "Assignments",
     "section": "",
-    "text": "Assignment\nOut\nDue\nWhat you practice\n\n\n\n\nA1: Foundations\n02-05\n02-15\nColab, pandas, SciPy inference\n\n\nA2: Area Unit Data\n02-19\n03-01\npolygons, choropleths, adjacency\n\n\nA3: Autocorrelation\n03-05\n03-15\njoin counts, global autocorrelation\n\n\nA4: Point Patterns\n03-26\n04-12\nlocal spatial autocorrelation\n\n\nA5: Clustering\n04-16\n05-03\npoint patterns\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Assignment\nOut\nDue\nWhat you practice\n\n\n\n\nA1: Foundations\n02-05\n02-15\nColab, pandas, SciPy inference\n\n\nA2: Area Unit Data\n02-19\n03-01\npolygons, choropleths, adjacency\n\n\nA3: Global Autocorrelation\n03-05\n03-15\njoin counts, global autocorrelation\n\n\nA4: Local Autocorrelation\n03-26\n04-12\nhot, cold spots, cluster maps\n\n\nA5: Clustering\n04-16\n05-03\npoint patterns\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
