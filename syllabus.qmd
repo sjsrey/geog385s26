@@ -21,6 +21,11 @@ format:
 **Office:** PSFA 361G  
 **Course Website:** URL (Quarto site)
 
+**TA:** Jin Huang
+**Email:** jhuang7158@sdsu.edu  
+**Office Hours:** Thursdays, 12:30-13:30  
+**Office:** PSFA 361E 
+
 ---
 
 This syllabus is detailed by design. You are not expected to memorize it. Instead, you should understand (1) how learning happens in this course, (2) how grades are earned, and (3) where to look when you have questions. Key sections to revisit during the semester are the course schedule, grading thresholds, and token policy.
