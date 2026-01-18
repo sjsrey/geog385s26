@@ -21,7 +21,7 @@ format:
 **Office:** PSFA 361G  
 **Course Website:** URL (Quarto site)
 
-**TA:** Jin Huang
+**Teaching Assistant:** Jin Huang
 **Email:** jhuang7158@sdsu.edu  
 **Office Hours:** Thursdays, 12:30-13:30  
 **Office:** PSFA 361E 
