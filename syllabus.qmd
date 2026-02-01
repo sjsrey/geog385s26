@@ -19,9 +19,8 @@ format:
 **Class Location:** GMCS 307  
 **Office Hours:** Tuesdays, 11:00-12:00  
 **Office:** PSFA 361G  
-**Course Website:** URL (Quarto site)
 
-**Teaching Assistant:** Jin Huang
+**Teaching Assistant:** Jin Huang  
 **Email:** jhuang7158@sdsu.edu  
 **Office Hours:** Thursdays, 12:30-13:30  
 **Office:** PSFA 361E 
@@ -77,40 +76,40 @@ By the end of this course, students will be able to:
 
 ## Topics (Planned)
 
-| Week | Date | Topic (R: Reading, L: Lecture)                   | Activities               |
-|------|------|--------------------------------------------------|--------------------------|
-| 1    | 1-20 | Introduction                                     |                          |
-|      | 1-22 | Computational Environment [R][collab]            |                          |
-| 2    | 1-27 | Python Primer [R][primer]                        | Q 1                      |
-|      | 1-29 | Data Exploration [R][pandas10]                   |                          |
-| 3    | 2-3  | Probability    [R][prob]                         | Q 2                      |
-|      | 2-5  | Data Simulation [R][sim]                         | Exercise 1  (W 3-4)      |
-| 4    | 2-10 | Inference [R][estimation]                        | Q 3                      |
-|      | 2-12 | Estimation and Testing in Python [R][hypothesis] |                          |
-| 5    | 2-17 | Spatial Data  [R][spatial-data]                  | Q 4                      |
-|      | 2-19 | Spatial Data in Python [R][spatial-data]         | Exercise 2 (W 5-6)       |
-| 6    | 2-24 | Areal Unit Data                                  | Q 5                      |
-|      | 2-26 | Visualization of Areal Unit Data [R][choro]      |                          |
-| 7    | 3-3  | Spatial Weights  [R][weights]                    | Q 6                      |
-|      | 3-5  | Spatial Graphs                                   | Exercise 3 (W 7-8)       |
-| 8    | 3-10 | Global Spatial Autocorrelation  [R][global]      | Q 7                      |
-|      | 3-12 | Testing for Global Autocorrelation               |                          |
-| 9    | 3-17 | No Class – Spatial Data Science Summit and AAG   |                          |
-|      | 3-19 | No Class – Spatial Data Science Summit and AAG   |                          |
-| 10   | 3-24 | Local Spatial Autocorrelation                    | Q 8                      |
-|      | 3-26 | Testing for Local Spatial Autocorrelation        | Exercise 4 (W 10-11)     |
-|      | 3-31 | Spring Break – No class                          |                          |
-|      | 4-2  | Spring Break – No class                          |                          |
-| 11   | 4-7  | Bivariate Spatial Autocorrelation [R][local]     | Q 9                      |
-|      | 4-9  | Regionalization      [R][region]                 |  |
-| 12   | 4-14 | Point Patterns       [R][points]                 | Q 10                     |
-|      | 4-16 | Centrography        [R][centro]                  | Exercise 5 (W 12-14)     |
-| 13   | 4-21 | Quadrat Methods     [R][quadrat]                 | Q 11                     |
-|      | 4-23 | Quadrat Applications                             |                          |
-| 14   | 4-28 | Distance Based  Analysis [R][ripley]             | Q 12                     |
-|      | 4-30 | Ripley Functions                                 |                          |
-| 15   | 5-5  | Clusters  [R][process]                           | Q 13                     |
-|      | 5-7  | Course retrospective                             |                          |
+| Week | Date | Topic (R: Reading, L: Lecture Video)              | Activities           |
+|------|------|---------------------------------------------------|----------------------|
+| 1    | 1-20 | Introduction                                      |                      |
+|      | 1-22 | Computational Environment [R][collab]             |                      |
+| 2    | 1-27 | Python Primer [R][primer], [L1a][L1a], [L1b][L1b] | Q 1                  |
+|      | 1-29 | Data Exploration [R][pandas10]                    |                      |
+| 3    | 2-3  | Probability    [R][prob], [L2a][L2a], [L2b][L2b]  | Q 2                  |
+|      | 2-5  | Data Simulation [R][sim]                          | Exercise 1  (W 3-4)  |
+| 4    | 2-10 | Inference [R][estimation]                         | Q 3                  |
+|      | 2-12 | Estimation and Testing in Python [R][hypothesis]  |                      |
+| 5    | 2-17 | Spatial Data  [R][spatial-data]                   | Q 4                  |
+|      | 2-19 | Spatial Data in Python [R][spatial-data]          | Exercise 2 (W 5-6)   |
+| 6    | 2-24 | Areal Unit Data                                   | Q 5                  |
+|      | 2-26 | Visualization of Areal Unit Data [R][choro]       |                      |
+| 7    | 3-3  | Spatial Weights  [R][weights]                     | Q 6                  |
+|      | 3-5  | Spatial Graphs                                    | Exercise 3 (W 7-8)   |
+| 8    | 3-10 | Global Spatial Autocorrelation  [R][global]       | Q 7                  |
+|      | 3-12 | Testing for Global Autocorrelation                |                      |
+| 9    | 3-17 | No Class – Spatial Data Science Summit and AAG    |                      |
+|      | 3-19 | No Class – Spatial Data Science Summit and AAG    |                      |
+| 10   | 3-24 | Local Spatial Autocorrelation                     | Q 8                  |
+|      | 3-26 | Testing for Local Spatial Autocorrelation         | Exercise 4 (W 10-11) |
+|      | 3-31 | Spring Break – No class                           |                      |
+|      | 4-2  | Spring Break – No class                           |                      |
+| 11   | 4-7  | Bivariate Spatial Autocorrelation [R][local]      | Q 9                  |
+|      | 4-9  | Regionalization      [R][region]                  |                      |
+| 12   | 4-14 | Point Patterns       [R][points]                  | Q 10                 |
+|      | 4-16 | Centrography        [R][centro]                   | Exercise 5 (W 12-14) |
+| 13   | 4-21 | Quadrat Methods     [R][quadrat]                  | Q 11                 |
+|      | 4-23 | Quadrat Applications                              |                      |
+| 14   | 4-28 | Distance Based  Analysis [R][ripley]              | Q 12                 |
+|      | 4-30 | Ripley Functions                                  |                      |
+| 15   | 5-5  | Clusters  [R][process]                            | Q 13                 |
+|      | 5-7  | Course retrospective                              |                      |
 
 [collab]: https://geographicdata.science/book/notebooks/02_geospatial_computational_environment.html
 [spatial-data]: https://geographicdata.science/book/notebooks/03_spatial_data.html
@@ -130,6 +129,10 @@ By the end of this course, students will be able to:
 [quadrat]: http://pysal.org/pointpats/user-guide/Quadrat_statistics.html
 [ripley]: http://pysal.org/pointpats/user-guide/ripley.html
 [process]: http://pysal.org/pointpats/user-guide/random.html
+[L1a]: https://www.youtube.com/watch?v=kAB2X9ZPVwI
+[L1b]: https://www.youtube.com/watch?v=nMOfeggiARY
+[L2a]: https://www.youtube.com/watch?v=vhTnMgHhf2A&list=PL68GC8kTZb8CRy0gkyJSvRF8Xdmx6Tysk&index=3gAQBiAQBsAgC
+[L2b]: https://www.youtube.com/watch?v=1Wmeef1Q-CE&list=PL68GC8kTZb8CRy0gkyJSvRF8Xdmx6Tysk&index=4&pp=gAQBiAQBsAgC
 
 ## Instructional Format: Prerecorded Conceptual Lectures and Experiential Learning
 
